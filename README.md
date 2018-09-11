@@ -18,9 +18,9 @@
 
 ### Background Research Report 
 
-** Kim ** :The client's organization and its mission and goals 
-** Karthik ** :The study organism or phenomenon 
-** Pallavi ** :The kind of decisions, interventions, or actions that analysis 
+* ** Kim ** :The client's organization and its mission and goals 
+* ** Karthik ** :The study organism or phenomenon 
+* ** Pallavi ** :The kind of decisions, interventions, or actions that analysis 
 
 ### Audience Profiling - Everyone
 
