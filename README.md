@@ -1,10 +1,11 @@
 # Markdown Document
 
-* Team: Mavstars 
+* Team: **Mavstars** 
 * Students: **Pallavi Chauhan**, **Kim Duong**, **Karthik Venkatesh**
 * Class: **ISQA8086: Special Topics**
 * Repository License Type: **GNU General Public License v3.0** _(Refer to License file within repository for more information)_
 * Purpose of Repository: **Group Repository for Group Assignments**
+* Data Source: _(https://www.usanpn.org/data)_
 
 ### Planned Research Questions: 
 1. Where do leafing activities occur the most among 8 sites?  
@@ -18,9 +19,9 @@
 
 ### Background Research Report 
 
-* ** Kim ** :The client's organization and its mission and goals 
-* ** Karthik ** :The study organism or phenomenon 
-* ** Pallavi ** :The kind of decisions, interventions, or actions that analysis 
+* **Kim** :The client's organization and its mission and goals 
+* **Karthik** :The study organism or phenomenon 
+* **Pallavi** :The kind of decisions, interventions, or actions that analysis 
 
 ### Audience Profiling - Everyone
 
