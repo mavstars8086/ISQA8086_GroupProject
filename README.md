@@ -24,6 +24,7 @@
 * **Pallavi** :The kind of decisions, interventions, or actions that analysis 
 
 ### Audience Profiling - Everyone
+*Proofreader: Kim 
 
 ### Data Cleaning - Pallavi + Kim 
 *Proofreader: Karthik
