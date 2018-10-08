@@ -12,12 +12,12 @@
  * Responsibilities: 
  * Job Experience: She has been the director for Linda Loring Nature Foundation for four years. 
  * Education level & background: She obtained her PhD in Ecology and Evolutionary Biology before joining Linda Lorning Nature Foundation. Before joining as a director, she was a post doctoral fellow at University of Connecticut for five months and research supervisor at Nantucket Conservation Foundation for four years. 
- * Interests & focus: 
+ * Interests & focus: **She's interested in the leaf metric "breaking bud" ** 
     
  ### Organizational 
- * Sector: Nonprofit
- * Mission: 
- * Stakeholders: 
+ * Sector: **Nonprofit**
+ * Mission: **'The Linda Loring Nature Foundation is dedicated to preserving and protecting Nantucket's biologically diverse ecosystems. The Foundation's property, a living laboratory for research and education, advances broad community support and environmental understanding to respect the fragile habitats surrounding us.'**
+ * Stakeholders: **Multiple Organizations, Institutions, Agencies, Business, and Individuals** 
  
  ### Individual and Organizational 
  * Data capabilities: 
