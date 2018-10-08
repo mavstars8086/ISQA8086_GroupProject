@@ -25,7 +25,7 @@
 * **Karthik** :The study organism or phenomenon 
 * **Pallavi** :The kind of decisions, interventions, or actions that analysis 
 
-### Audience Profiling - Everyone
+### Audience Profiling - Pallavi + Karthik 
 *Proofreader: Kim 
 
 ### Data Cleaning - Pallavi + Kim 
