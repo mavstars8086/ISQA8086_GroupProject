@@ -48,15 +48,14 @@
  
  
  
-  _References_
+   _References_
     1) https://www.usanpn.org/natures_notebook
     2) https://llnf.org/
  
- 
- _Contributors:_
-    Kim worked on Individual and Organizational components of the audience.
-    
-    Karthik worked on the Data capabilities,Requirements/needs and priorities.
+   _Contributors_
+   Kim worked on Individual and Organizational components of the audience.
+   
+   Karthik worked on the Data capabilities,Requirements/needs and priorities.
  
  
  
