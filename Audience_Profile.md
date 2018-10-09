@@ -1,9 +1,5 @@
 # Audience Profile 
 
-* Group: **MavStars**
-* Instructor: **Dr. Andrea Wiggins**
-* Class: **ISQA8086: Special Topics** 
-
 ## Organization Name: Linda Loring Nature Foundation 
 
 ### Individual
@@ -53,11 +49,14 @@
  
  
   _References_
- 1) https://www.usanpn.org/natures_notebook
- 2) https://llnf.org/
+    1) https://www.usanpn.org/natures_notebook
+    2) https://llnf.org/
  
  
- _Contributors:
+ _Contributors:_
+    Kim worked on Individual and Organizational components of the audience.
+    
+    Karthik worked on the Data capabilities,Requirements/needs and priorities.
  
  
  
