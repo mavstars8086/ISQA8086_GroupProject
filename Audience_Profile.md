@@ -22,7 +22,9 @@
  ### Individual and Organizational 
  * Data capabilities: 
    Intermediated level of maturity with data. Data is collected to through the national phenelogy network Nature notebook online tool   https://www.usanpn.org/natures_notebook .
+   
    Process is established to collect the data and create the data set that can be downloaded.
+   
    Literacy level varies on the user entering the data with Natures Notebook Online tool on USA National phenology network, data can be entered by a amateurs and professional naturalists.
    
  * Requirements/needs: 
