@@ -17,7 +17,7 @@
  ### Organizational 
  * Sector: **Nonprofit**
  * Mission: **'The Linda Loring Nature Foundation is dedicated to preserving and protecting Nantucket's biologically diverse ecosystems. The Foundation's property, a living laboratory for research and education, advances broad community support and environmental understanding to respect the fragile habitats surrounding us.'**
- * Stakeholders: **Multiple Organizations, Institutions, Agencies, Business,Local community and Individuals** 
+ * Stakeholders: **Multiple Organizations, Institutions, Agencies, Business, Local community and Individuals** 
  
  ### Individual and Organizational 
  * Data capabilities: 
@@ -55,5 +55,10 @@
   _References_
  1) https://www.usanpn.org/natures_notebook
  2) https://llnf.org/
+ 
+ 
+ _Contributors:
+ 
+ 
  
  
