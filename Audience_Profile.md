@@ -39,7 +39,7 @@
  
  * Priorities: 
  
-   "The Linda Loring Nature Foundation Mission is to protect and preserve the Nantucket's biologically diverse ecosystem".
+    The Linda Loring Nature Foundation Mission is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation. 
  
     Understand the fragile habitats in Nantucket's property.
   
@@ -50,7 +50,7 @@
  
  
  
- *References
+ * References
  1) https://www.usanpn.org/natures_notebook
  2) https://llnf.org/
  
