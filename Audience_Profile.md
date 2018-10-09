@@ -50,7 +50,7 @@
  
  
  *References
- https://www.usanpn.org/natures_notebook
- https://llnf.org/
+ 1) https://www.usanpn.org/natures_notebook
+ 2) https://llnf.org/
  
  
