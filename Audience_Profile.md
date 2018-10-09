@@ -29,7 +29,7 @@
    
  * Requirements/needs: 
  The Requirements of the Linda Loring Nature Foundation is Building Long term data set on Phenelogy for common native shrubs of Nantucket.
- Interested in looking at tge climate change effects like early spring warming has on the breaking of buds.
+ Interested in looking at the climate change effects like early spring warming has on the breaking of buds.
  Temperature logger is used to collect the data on air temperature and soil temperature to analyze the variation in temperature caused by climate change.
  
  
