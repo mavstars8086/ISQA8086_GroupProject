@@ -18,18 +18,16 @@
  ### Individual and Organizational 
  * Data capabilities: 
  
-   Intermediated level of maturity with data. Data is collected to through the national phenelogy network Nature notebook online tool   https://www.usanpn.org/natures_notebook .
+   Intermediated level of maturity with data. Data is collected to through the national phenelogy network Nature notebook online tool   https://www.usanpn.org/natures_notebook .<br/>
    
-   Process is established to collect the data and create the data set that can be downloaded.
+   Process is established to collect the data and create the data set that can be downloaded.<br/>
    
-   Literacy level varies on the user entering the data with Natures Notebook Online tool on USA National phenology network, data can be entered by a amateurs and professional naturalists.
+   Literacy level varies on the user entering the data with Natures Notebook Online tool on USA National phenology network, data can be entered by a amateurs and professional naturalists.<br/>
    
  * Requirements/needs: 
  
-   The Requirements of the Linda Loring Nature Foundation is Building Long term data set on Phenelogy for common native shrubs of  Nantucket.
- 
-   Interested in looking at the climate change effects like early spring warming has on the breaking of buds and analyze if their is a variation in the breaking of buds over different years.
- 
+   The Requirements of the Linda Loring Nature Foundation is Building Long term data set on Phenelogy for common native shrubs of  Nantucket.<br/>
+   Interested in looking at the climate change effects like early spring warming has on the breaking of buds and analyze if their is a variation in the breaking of buds over different years.<br/>
    Temperature logger is used to collect the data on air temperature and soil temperature to analyze the variation in temperature caused by climate change.
  
  
@@ -37,11 +35,9 @@
  
  * Priorities: 
  
-    The Linda Loring Nature Foundation Mission is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation. 
- 
-    Understand the fragile habitats in Nantucket's property.
-  
-    Bird research conservation, and education on birds and nature for people of all age backgrounds.Partnership programs with  educational institutes and local schools. 
+    The Linda Loring Nature Foundation Mission is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation.<br/>
+    Understand the fragile habitats in Nantucket's property.<br/>
+    Bird research conservation, and education on birds and nature for people of all age backgrounds.Partnership programs with   educational institutes and local schools. 
   
   
  
@@ -52,9 +48,9 @@
     1) https://www.usanpn.org/natures_notebook
     2) https://llnf.org/
  
-   _Contributors_
-   Kim worked on Individual and Organizational components of the audience.
+   _Contributors_:
    
+   Kim worked on Individual and Organizational components of the audience.<br/>
    Karthik worked on the Data capabilities,Requirements/needs and priorities.
  
  
