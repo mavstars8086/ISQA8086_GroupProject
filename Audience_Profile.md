@@ -4,16 +4,15 @@
 
 ### Individual
  * Name: **Sarah Bois** 
- * Role: **Director of Research and Education**
- * Responsibilities: 
- * Job Experience: She has been the director for Linda Loring Nature Foundation for four years. 
- * Education level & background: She obtained her PhD in Ecology and Evolutionary Biology before joining Linda Lorning Nature Foundation. Before joining as a director, she was a post doctoral fellow at University of Connecticut for five months and research supervisor at Nantucket Conservation Foundation for four years. 
- * Interests & focus: **She's interested in the leaf metric "breaking bud" ** 
+ * Role & Responsibilities: **Director of Research and Education** Currently, she's the leader of the research project between Linda Loring Nature Foundation and Class ISQA 8086 from the University of Nebraska Omaha.<br/>
+ * Job Experience: She has been the director for Linda Loring Nature Foundation for four years.<br/>
+ * Education level & background: She obtained her PhD in Ecology and Evolutionary Biology before joining Linda Lorning Nature Foundation. Before joining as a director, she was a post doctoral fellow at University of Connecticut for five months and research supervisor at Nantucket Conservation Foundation for four years.<br/> 
+ * Interests & focus: She's interested in the leaf metric "breaking bud".<br/>
     
  ### Organizational 
- * Sector: **Nonprofit**
- * Mission: **'The Linda Loring Nature Foundation is dedicated to preserving and protecting Nantucket's biologically diverse ecosystems. The Foundation's property, a living laboratory for research and education, advances broad community support and environmental understanding to respect the fragile habitats surrounding us.'**
- * Stakeholders: **Multiple Organizations, Institutions, Agencies, Business, Local community and Individuals** 
+ * Sector: Nonprofit
+ * Mission: 'The Linda Loring Nature Foundation is dedicated to preserving and protecting Nantucket's biologically diverse ecosystems. The Foundation's property, a living laboratory for research and education, advances broad community support and environmental understanding to respect the fragile habitats surrounding us.'
+ * Stakeholders: Multiple Organizations, Institutions, Agencies, Business, Local community and Individuals
  
  ### Individual and Organizational 
  * Data capabilities: 
@@ -30,10 +29,9 @@
  
  * Priorities: 
  
-    The Linda Loring Nature Foundation first priority is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation.<br/>
+    The Linda Loring Nature Foundation Mission is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation.<br/>
     Understand the fragile habitats in Nantucket's property.<br/>
-    Bird research conservation, and education on birds and nature for people of all age backgrounds.<br/>
-    Partnership programs with   educational institutes and local schools. 
+    Bird research conservation, and education on birds and nature for people of all age backgrounds.Partnership programs with   educational institutes and local schools. 
   
   
  
@@ -41,8 +39,8 @@
  
  
    _References_
-    1.  https://www.usanpn.org/natures_notebook
-    2.  https://llnf.org/
+    1. https://www.usanpn.org/natures_notebook
+    2. https://llnf.org/
  
    _Contributors_:
    
