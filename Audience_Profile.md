@@ -4,7 +4,7 @@
 
 ### Individual
  * Name: **Sarah Bois** 
- * Role & Responsibilities: **Director of Research and Education**
+ * Role & Responsibilities: **Director of Research and Education** 
  Currently, she's the leader of the research project between Linda Loring Nature Foundation and Class ISQA 8086 from the University of Nebraska Omaha.<br/>
  * Job Experience: She has been the director for Linda Loring Nature Foundation for four years.<br/>
  * Education level & background: She obtained her PhD in Ecology and Evolutionary Biology before joining Linda Lorning Nature Foundation. Before joining as a director, she was a post doctoral fellow at University of Connecticut for five months and research supervisor at Nantucket Conservation Foundation for four years.<br/> 
