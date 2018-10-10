@@ -46,7 +46,7 @@
    _Contributors_:
    
    Kim worked on Individual and Organizational components of the audience.<br/>
-   Karthik worked on the Data capabilities,Requirements/needs and priorities.
+   Karthik worked on the Data capabilities,Requirements/needs and priorities.<br/>
    Pallavi proofread this document at 12:15 on 10/10/2018.
    
  
