@@ -20,11 +20,11 @@
  
    Intermediated level of maturity with data. Data is collected to through the national phenelogy network Nature notebook online tool   (https://www.usanpn.org/natures_notebook) .<br/>
    Process is established to collect the data and create the data set that can be downloaded.<br/>
-   Literacy level varies on the user entering the data with Natures Notebook Online tool on USA National phenology network, data can be entered by a amateurs and professional naturalists.<br/>
+   Literacy level varies on the user entering the data with Natures Notebook Online tool on USA National phenology network, data can be entered by many amateurs and professional naturalists.<br/>
    
  * Requirements/needs: 
  
-   The Requirements of the Linda Loring Nature Foundation is Building Long term data set on Phenelogy for common native shrubs of  Nantucket.<br/>
+   The Requirements of the Linda Loring Nature Foundation is building long term data set on Phenelogy for common native shrubs of  Nantucket.<br/>
    Interested in looking at the climate change effects like early spring warming has on the breaking of buds and analyze if their is a variation in the breaking of buds over different years.<br/>
    Temperature logger is used to collect the data on air temperature and soil temperature to analyze the variation in temperature caused by climate change.
  
@@ -47,7 +47,7 @@
    
    Kim worked on Individual and Organizational components of the audience.<br/>
    Karthik worked on the Data capabilities,Requirements/needs and priorities.
-   
+   Pallavi proofread this document at 12:15 on 10/10/2018.
    
  
  
