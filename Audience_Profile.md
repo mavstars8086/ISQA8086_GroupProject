@@ -30,9 +30,10 @@
  
  * Priorities: 
  
-    The Linda Loring Nature Foundation Mission is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation.<br/>
+    The Linda Loring Nature Foundation first priority is to analyze the phenelogical data to determine its impact on the ecology of the Linda Loring Nature Foundation.<br/>
     Understand the fragile habitats in Nantucket's property.<br/>
-    Bird research conservation, and education on birds and nature for people of all age backgrounds.Partnership programs with   educational institutes and local schools. 
+    Bird research conservation, and education on birds and nature for people of all age backgrounds.<br/>
+    Partnership programs with   educational institutes and local schools. 
   
   
  
