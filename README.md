@@ -1,5 +1,3 @@
-# Markdown Document
-
 * Team: **Mavstars** 
 * Students: **Pallavi Chauhan**, **Kim Duong**, **Karthik Venkatesh**
 * Class: **ISQA8086 Special Topics**
@@ -17,27 +15,3 @@
 3. How do breaking buds vary from year to year?  
 
 
-## Project Effort Allocation 
-
-### Background Research Report 
-
-* **Kim** :The client's organization and its mission and goals 
-* **Karthik** :The study organism or phenomenon 
-* **Pallavi** :The kind of decisions, interventions, or actions that analysis 
-
-### Audience Profiling - Pallavi + Karthik 
-*Proofreader: Kim 
-
-### Data Cleaning - Pallavi + Kim 
-*Proofreader: Karthik
-
-### R Script - Karthik + Kim 
-*Proofreader: Pallavi
-
-### R Plots - Pallavi + Karthik 
-*Proofreader: Kim 
-
-### Project Presentation - Everyone 
-*Proofreader: Karthik 
-
-### Github - Everyone 
