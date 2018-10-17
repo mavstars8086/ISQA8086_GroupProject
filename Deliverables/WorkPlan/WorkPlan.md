@@ -18,8 +18,8 @@
 ### Audience Profiling - Pallavi + Karthik 
 *Proofreader: Kim 
 
-### Data Cleaning - Pallavi + Kim 
-*Proofreader: Karthik
+### Data Cleaning - Karthik + Kim 
+*Proofreader: Pallavi
 
 ### R Script - Karthik + Kim 
 *Proofreader: Pallavi
