@@ -216,7 +216,6 @@ The temperature data for a particular site has the following columns
 -   Step 2 Rename Column Date Time, GMT-05:00 to Date; Column Temp, °C to Temp 
 -   Step 3 Based on the instructions given to us from the client we need to remove the *first row* and the *last row* of the file to remove the temperature recorded when it was in the bag.
 
-### Filtering Data for Species
 
 Cleaning temperature data within R requires some pre-cleaning in Excel before importing into R for reformatting Date 
 
