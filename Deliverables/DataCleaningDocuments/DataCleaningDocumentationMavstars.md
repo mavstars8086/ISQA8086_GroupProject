@@ -199,18 +199,54 @@ Next go to BeachPlumDataSet remove the unecessary index column generated from th
 
 ### Filtering Temperature Data
 
+### Documenter: Kim Duong 
+### Date: 10/30/2018 
+
 In order to corelated the temperature data and the species data obtained from the national phenology network we first need to get the temperature data sets to our required format.
 
 The temperature data for a particular site has the following columns
-
+-   No Name Column 
 -   Date Time, GMT-05:00
 -   Temp, °C
 -   Intensity
 
 #### Steps in excel
 
--   Step 1 Remove the column Intensity
--   Step 2 Based on the instructions given to us from the client we need to remove the *first row* and the *last row* of the file to remove the temperature recorded when it was in the bag.
+-   Step 1 Remove the first column with No Name and column Intensity in Excel 
+-   Step 2 Rename Column Date Time, GMT-05:00 to Date; Column Temp, °C to Temp 
+-   Step 3 Based on the instructions given to us from the client we need to remove the *first row* and the *last row* of the file to remove the temperature recorded when it was in the bag.
+
+### Filtering Data for Species
+
+Cleaning temperature data within R requires some pre-cleaning in Excel before importing into R for reformatting Date 
+
+Read the data from BlackBeachDataSet
+
+``` r
+may2015_siteA <- read.csv("Site_A.csv", header=TRUE, sep=",")
+View(may2015_siteA)
+```
+
+Remove the time within Date column by reformatting to just date only
+
+``` r
+may2015_siteA$Date <- format(as.POSIXct(strptime(may2015_siteA$Date,"%m/%d/%Y %H:%M",tz="")) ,format = "%m/%d/%Y")
+View(may2015_SiteA
+```
+
+Reformat the date into day of the year in a new column known as Day  
+
+``` r
+may2015_siteC$Day <- format(as.POSIXct(strptime(may2015_siteC$Date,"%m/%d/%Y",tz="")) ,format = "%j")
+```
+
+Write the data set into a csv file 
+
+``` r
+write.csv(march2015_siteC, "SiteC_March2015.csv")
+```
+
+Open the new csv file in Excel and delete  the first column with numerical value. Then, move the Day column between column Date and column Temp 
 
 #### Contributorship
 
