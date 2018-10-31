@@ -28,7 +28,12 @@ October 29, 2018
         -   [Beach Plum Phenophase Average in Year 2016](#beach-plum-phenophase-average-in-year-2016)
         -   [Beach Plum Phenophase Average in Year 2017](#beach-plum-phenophase-average-in-year-2017)
         -   [Beach Plum Phenophase Average in Year 2018](#beach-plum-phenophase-average-in-year-2018)
-        
+    -   [Descriptive Statistics for Black Cherry](#descriptive-statistics-for-black-cherry)
+        -   [Black Cherry Phenophase Average in Year 2015](#black-cherry-phenophase-average-in-year-2015)
+        -   [Black Cherry Phenophase Average in Year 2016](#black-cherry-phenophase-average-in-year-2016)
+        -   [Black Cherry Phenophase Average in Year 2017](#black-cherry-phenophase-average-in-year-2017)
+        -   [Black Cherry Phenophase Average in Year 2018](#black-cherry-phenophase-average-in-year-2018)
+    -   [Contributorship Statement](#contributorship-statement)  
       
 ------------------------------------------------------------------------
 
@@ -39,7 +44,7 @@ The purpose of this document is to provide the steps taken to filter the data on
 
 ### Data Source:
 
-Data obtained from <https://www.usanpn.org/data/observational> on all the 8species from Linda Loring Nature Foundation.
+Data was obtained from <https://www.usanpn.org/data/observational> on all the 8 species from Linda Loring Nature Foundation.
 
 #### Data File:
 
@@ -48,7 +53,9 @@ Data obtained from <https://www.usanpn.org/data/observational> on all the 8speci
 Steps Taken to Clean the Data:
 ------------------------------
 
-Download the data from National Phenology network site by giving the necessary inputs like data range, species and state. Next Select phenophase such as flowers, fruits, leaves etc. Select the partner groups as Linda Loring Foundation, Source data set as Natures notebook then select the optional fields required like Site Name and Phenophase category.
+Download the data from National Phenology network site by giving the necessary inputs like data range, species and state
+
+Next Select phenophase such as flowers, fruits, leaves etc. Select the partner groups as Linda Loring Foundation, Source data set as Natures notebook then select the optional fields required like Site Name and Phenophase category.
 
 -   Create a New R script
 -   Set the working directory with setwd()
@@ -131,7 +138,7 @@ Follow the same R code for different data set.
 
 ##### Beach Plum
 
-Now we filter the data set based on the common name *beach plum*
+Now filter the data set based on the common name *beach plum*
 
 ``` r
 BeachPlum <- subset(BreakingBudData,Common_Name=="beach plum")
@@ -146,7 +153,7 @@ write.csv(BeachPlum,file="BeachPlum.csv")
 
 ##### American hazelnut
 
-Now we filter the data set based on the common name *American hazelnut*
+Now filter the data set based on the common name *American hazelnut*
 
 ``` r
 AmericanHazelnut <- subset(BreakingBudData,Common_Name=="American hazelnut")
@@ -161,7 +168,7 @@ write.csv(AmericanHazelnut,file="AmericanHazelnut.csv")
 
 ##### Bear Oak
 
-Now we filter the data set based on the common name *bear oak*
+Now filter the data set based on the common name *bear oak*
 
 ``` r
 BearOak <- subset(BreakingBudData,Common_Name=="bear oak")
@@ -176,7 +183,7 @@ write.csv(BearOak,file="BearOak.csv")
 
 ##### Black huckleberry
 
-Now we filter the data set based on the common name *black huckleberry*
+Now filter the data set based on the common name *black huckleberry*
 
 ``` r
 BlackHuckleBerry <- subset(BreakingBudData,Common_Name=="black huckleberry")
@@ -191,7 +198,7 @@ write.csv(BlackHuckleBerry,file="BlackHuckleBerry.csv")
 
 ##### Lowbush blueberry
 
-Now we filter the data set based on the common name *lowbush blueberry*
+Now filter the data set based on the common name *lowbush blueberry*
 
 ``` r
 LowBushBlueBerry <- subset(BreakingBudData,Common_Name=="lowbush blueberry")
@@ -206,7 +213,7 @@ write.csv(LowBushBlueBerry,file="LowBushBlueBerry.csv")
 
 ##### Northern bayberry
 
-Now we filter the data set based on the common name *northern bayberry*
+Now filter the data set based on the common name *northern bayberry*
 
 ``` r
 NorthernBayBerry <- subset(BreakingBudData,Common_Name=="northern bayberry")
@@ -221,7 +228,7 @@ write.csv(NorthernBayBerry,file="NorthernBayBerry.csv")
 
 ##### Southern arrowwood
 
-Now we filter the data set based on the common name *southern arrowwood*
+Now filter the data set based on the common name *southern arrowwood*
 
 ``` r
 SouthernArrowWood <- subset(BreakingBudData,Common_Name=="southern arrowwood")
@@ -238,7 +245,7 @@ write.csv(NorthernBayBerry,file="SouthernArrowWood.csv")
 
 ##### Site A
 
-Now we filter the data set based on the Sites *Site A*
+Now filter the data set based on the Sites *Site A*
 
 ``` r
 Site_A_BreakingBud <- subset(BreakingBudData,Site_Name=="Site A")
@@ -251,7 +258,7 @@ write.csv(Site_A_BreakingBud,file="Site_A_BreakingBud.csv")
 
 ##### Site B
 
-Now we filter the data set based on the Sites *Site B*
+Now filter the data set based on the Sites *Site B*
 
 ``` r
 Site_B_BreakingBud <- subset(BreakingBudData,Site_Name=="Site B")
@@ -264,7 +271,7 @@ write.csv(Site_B_BreakingBud,file="Site_B_BreakingBud.csv")
 
 ##### Site C
 
-Now we filter the data set based on the Sites *Site C*
+Now filter the data set based on the Sites *Site C*
 
 ``` r
 Site_C_BreakingBud <- subset(BreakingBudData,Site_Name=="Site C")
@@ -277,7 +284,7 @@ write.csv(Site_C_BreakingBud,file="Site_C_BreakingBud.csv")
 
 ##### Site D
 
-Now we filter the data set based on the Sites *Site D*
+Now filter the data set based on the Sites *Site D*
 
 ``` r
 Site_D_BreakingBud <- subset(BreakingBudData,Site_Name=="Site D")
@@ -290,7 +297,7 @@ write.csv(Site_D_BreakingBud,file="Site_D_BreakingBud.csv")
 
 ##### Site E
 
-Now we filter the data set based on the Sites *Site E*
+Now filter the data set based on the Sites *Site E*
 
 ``` r
 Site_E_BreakingBud <- subset(BreakingBudData,Site_Name=="Site E")
@@ -303,7 +310,7 @@ write.csv(Site_E_BreakingBud,file="Site_E_BreakingBud.csv")
 
 ##### Site F
 
-Now we filter the data set based on the Sites *Site F*
+Now filter the data set based on the Sites *Site F*
 
 ``` r
 Site_F_BreakingBud <- subset(BreakingBudData,Site_Name=="Site F")
@@ -316,7 +323,7 @@ write.csv(Site_F_BreakingBud,file="Site_F_BreakingBud.csv")
 
 ##### Site G
 
-Now we filter the data set based on the Sites *Site G*
+Now filter the data set based on the Sites *Site G*
 
 ``` r
 Site_G_BreakingBud <- subset(BreakingBudData,Site_Name=="Site G")
@@ -329,7 +336,7 @@ write.csv(Site_G_BreakingBud,file="Site_G_BreakingBud.csv")
 
 ##### Site H
 
-Now we filter the data set based on the Sites *Site H*
+Now filter the data set based on the Sites *Site H*
 
 ``` r
 Site_H_BreakingBud <- subset(BreakingBudData,Site_Name=="Site H")
@@ -751,6 +758,8 @@ Author: Kim Duong
 
 Purpose: Find the average number of the phenophase status for Beach Plum throughout Site D, E, G by breaking down the year specifically. This analysis provides results of average number of phenophase status among these three sites from year 2015 through 2018 
 
+
+
 Use the select function to select only the required important columns for the species data also which have breaking bud as the phenophase.
 
 Set Working Directory on Local Machine 
@@ -852,5 +861,81 @@ aggregate(breakingbud_2018[12], list(breakingbud_2018$Site_Name), mean)
 ```
 
 
+### Descriptive Statistics for Black Cherry 
+
+Prepping procedures for Black Cherry dataset is the same as Beach Plum. However, Black Cherry has five sites rather than three sites compare to Beach Plum. 
+
+Taking the average of sites throughout year 2015 - 2018 for phenophase status 
+
+##### Black Chery Phenophase Average in Year 2015
+``` r
+aggregate(cherrybreaking_bud_2015[12], list(cherrybreaking_bud_2015$Site_Name), mean)
+```
+
+``` r
+      Group.1     Phenophase_Status
+## 1  Site A        0.09740260
+## 2  Site E        0.06666667
+## 3  Site F        0.04487179
+## 4  Site G        0.08843537
+## 5  Site H        0.09395973
+```
+
+##### Black Cherry Phenophase Average in Year 2016
+``` r
+aggregate(cherrybreaking_bud_2016[12], list(cherrybreaking_bud_2016$Site_Name), mean)
+```
+
+``` r
+      Group.1     Phenophase_Status
+## 1  Site A         0.1951220
+## 2  Site E         0.1916667
+## 3  Site F         0.1951220
+## 4  Site G         0.1951220
+## 5  Site H         0.1707317 
+```
+
+##### Black Cherry Phenophase Average in Year 2017
+``` r
+aggregate(cherrybreaking_bud_2017[12], list(cherrybreaking_bud_2017$Site_Name), mean)
+```
+``` r
+      Group.1     Phenophase_Status
+## 1  Site A         0.5283019
+## 2  Site E         0.5346535
+## 3  Site F         0.5555556
+## 4  Site G         0.6039604
+## 5  Site H         0.5533981
+```
+
+##### Black Cherry Phenophase Average in Year 2018 
+``` r
+aggregate(cherrybreaking_bud_2018[12], list(cherrybreaking_bud_2018$Site_Name), mean)
+```
+``` r
+      Group.1     Phenophase_Status
+## 1  Site A         0.3068182
+## 2  Site E         0.3666667
+## 3  Site F         0.3793103
+## 4  Site G         0.3218391
+## 5  Site H         0.3678161
+```
+### Contributorship Statement 
+
+##### Karthik
+* Start markdown file 
+* Write the purpose statement 
+* Provide steps taken to clean data
+* Filter data
+* Provide descriptive statistics for species 
+
+
+##### Kim
+* Prep data for phenophase status analysis 
+* Provide descriptive statistics to determine the phenophase average for both beach plum and black cherry 
+
+##### Pallvi 
+* Analyze the accuracy result of the descriptive analysis  
+* Edit and check the markdown file before submission
 
 

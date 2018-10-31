@@ -162,6 +162,14 @@ $(document).ready(function () {
 <li><a href="#beach-plum-phenophase-average-in-year-2017">Beach Plum Phenophase Average in Year 2017</a></li>
 <li><a href="#beach-plum-phenophase-average-in-year-2018">Beach Plum Phenophase Average in Year 2018</a></li>
 </ul></li>
+<li><a href="#descriptive-statistics-for-black-cherry">Descriptive Statistics for Black Cherry</a>
+<ul>
+<li><a href="#black-cherry-phenophase-average-in-year-2015">Black Cherry Phenophase Average in Year 2015</a></li>
+<li><a href="#black-cherry-phenophase-average-in-year-2016">Black Cherry Phenophase Average in Year 2016</a></li>
+<li><a href="#black-cherry-phenophase-average-in-year-2017">Black Cherry Phenophase Average in Year 2017</a></li>
+<li><a href="#black-cherry-phenophase-average-in-year-2018">Black Cherry Phenophase Average in Year 2018</a></li>
+</ul></li>
+<li><a href="#contributorship-statement">Contributorship Statement</a></li>
 </ul></li>
 </ul>
 <hr />
@@ -171,7 +179,7 @@ $(document).ready(function () {
 <p>The purpose of this document is to provide the steps taken to filter the data on different species based on the phenophase breakingbud. We later perform the necessary functions of plotting/descriptive statistics.</p>
 <div id="data-source" class="section level3">
 <h3>Data Source:</h3>
-<p>Data obtained from <a href="https://www.usanpn.org/data/observational" class="uri">https://www.usanpn.org/data/observational</a> on all the 8species from Linda Loring Nature Foundation.</p>
+<p>Data was obtained from <a href="https://www.usanpn.org/data/observational" class="uri">https://www.usanpn.org/data/observational</a> on all the 8 species from Linda Loring Nature Foundation.</p>
 <div id="data-file" class="section level4">
 <h4>Data File:</h4>
 <p>“AllSpecies.csv” –Status Intensity Observation Data</p>
@@ -179,7 +187,8 @@ $(document).ready(function () {
 </div>
 <div id="steps-taken-to-clean-the-data" class="section level2">
 <h2>Steps Taken to Clean the Data:</h2>
-<p>Download the data from National Phenology network site by giving the necessary inputs like data range, species and state. Next Select phenophase such as flowers, fruits, leaves etc. Select the partner groups as Linda Loring Foundation, Source data set as Natures notebook then select the optional fields required like Site Name and Phenophase category.</p>
+<p>Download the data from National Phenology network site by giving the necessary inputs like data range, species and state</p>
+<p>Next Select phenophase such as flowers, fruits, leaves etc. Select the partner groups as Linda Loring Foundation, Source data set as Natures notebook then select the optional fields required like Site Name and Phenophase category.</p>
 <ul>
 <li>Create a New R script</li>
 <li>Set the working directory with setwd()</li>
@@ -233,7 +242,7 @@ View(BlackCherry)</code></pre>
 </div>
 <div id="beach-plum" class="section level5">
 <h5>Beach Plum</h5>
-<p>Now we filter the data set based on the common name <em>beach plum</em></p>
+<p>Now filter the data set based on the common name <em>beach plum</em></p>
 <pre class="r"><code>BeachPlum &lt;- subset(BreakingBudData,Common_Name==&quot;beach plum&quot;)
 View(BeachPlum)</code></pre>
 <p>Write the dataset of BeachPlum to a csv and name it.</p>
@@ -241,7 +250,7 @@ View(BeachPlum)</code></pre>
 </div>
 <div id="american-hazelnut" class="section level5">
 <h5>American hazelnut</h5>
-<p>Now we filter the data set based on the common name <em>American hazelnut</em></p>
+<p>Now filter the data set based on the common name <em>American hazelnut</em></p>
 <pre class="r"><code>AmericanHazelnut &lt;- subset(BreakingBudData,Common_Name==&quot;American hazelnut&quot;)
 View(AmericanHazelnut)</code></pre>
 <p>Write the dataset of AmericanHazelnut to a csv and name it.</p>
@@ -249,7 +258,7 @@ View(AmericanHazelnut)</code></pre>
 </div>
 <div id="bear-oak" class="section level5">
 <h5>Bear Oak</h5>
-<p>Now we filter the data set based on the common name <em>bear oak</em></p>
+<p>Now filter the data set based on the common name <em>bear oak</em></p>
 <pre class="r"><code>BearOak &lt;- subset(BreakingBudData,Common_Name==&quot;bear oak&quot;)
 View(BearOak)</code></pre>
 <p>Write the dataset of Bear Oak to a csv and name it.</p>
@@ -257,7 +266,7 @@ View(BearOak)</code></pre>
 </div>
 <div id="black-huckleberry" class="section level5">
 <h5>Black huckleberry</h5>
-<p>Now we filter the data set based on the common name <em>black huckleberry</em></p>
+<p>Now filter the data set based on the common name <em>black huckleberry</em></p>
 <pre class="r"><code>BlackHuckleBerry &lt;- subset(BreakingBudData,Common_Name==&quot;black huckleberry&quot;)
 View(BlackHuckleBerry)</code></pre>
 <p>Write the dataset of Black Huckleberry to a csv and name it.</p>
@@ -265,7 +274,7 @@ View(BlackHuckleBerry)</code></pre>
 </div>
 <div id="lowbush-blueberry" class="section level5">
 <h5>Lowbush blueberry</h5>
-<p>Now we filter the data set based on the common name <em>lowbush blueberry</em></p>
+<p>Now filter the data set based on the common name <em>lowbush blueberry</em></p>
 <pre class="r"><code>LowBushBlueBerry &lt;- subset(BreakingBudData,Common_Name==&quot;lowbush blueberry&quot;)
 View(LowBushBlueBerry)</code></pre>
 <p>Write the dataset of lowbush blueberry to a csv and name it.</p>
@@ -273,7 +282,7 @@ View(LowBushBlueBerry)</code></pre>
 </div>
 <div id="northern-bayberry" class="section level5">
 <h5>Northern bayberry</h5>
-<p>Now we filter the data set based on the common name <em>northern bayberry</em></p>
+<p>Now filter the data set based on the common name <em>northern bayberry</em></p>
 <pre class="r"><code>NorthernBayBerry &lt;- subset(BreakingBudData,Common_Name==&quot;northern bayberry&quot;)
 View(NorthernBayBerry)</code></pre>
 <p>Write the dataset of northern bayberry to a csv and name it.</p>
@@ -281,7 +290,7 @@ View(NorthernBayBerry)</code></pre>
 </div>
 <div id="southern-arrowwood" class="section level5">
 <h5>Southern arrowwood</h5>
-<p>Now we filter the data set based on the common name <em>southern arrowwood</em></p>
+<p>Now filter the data set based on the common name <em>southern arrowwood</em></p>
 <pre class="r"><code>SouthernArrowWood &lt;- subset(BreakingBudData,Common_Name==&quot;southern arrowwood&quot;)
 View(SouthernArrowWood)</code></pre>
 <p>Write the dataset of southern arrowwood to a csv and name it.</p>
@@ -292,56 +301,56 @@ View(SouthernArrowWood)</code></pre>
 <h4>For different sites</h4>
 <div id="site-a" class="section level5">
 <h5>Site A</h5>
-<p>Now we filter the data set based on the Sites <em>Site A</em></p>
+<p>Now filter the data set based on the Sites <em>Site A</em></p>
 <pre class="r"><code>Site_A_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site A&quot;)
 View(Site_A_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_A_BreakingBud,file=&quot;Site_A_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-b" class="section level5">
 <h5>Site B</h5>
-<p>Now we filter the data set based on the Sites <em>Site B</em></p>
+<p>Now filter the data set based on the Sites <em>Site B</em></p>
 <pre class="r"><code>Site_B_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site B&quot;)
 View(Site_B_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_B_BreakingBud,file=&quot;Site_B_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-c" class="section level5">
 <h5>Site C</h5>
-<p>Now we filter the data set based on the Sites <em>Site C</em></p>
+<p>Now filter the data set based on the Sites <em>Site C</em></p>
 <pre class="r"><code>Site_C_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site C&quot;)
 View(Site_C_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_C_BreakingBud,file=&quot;Site_C_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-d" class="section level5">
 <h5>Site D</h5>
-<p>Now we filter the data set based on the Sites <em>Site D</em></p>
+<p>Now filter the data set based on the Sites <em>Site D</em></p>
 <pre class="r"><code>Site_D_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site D&quot;)
 View(Site_D_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_D_BreakingBud,file=&quot;Site_D_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-e" class="section level5">
 <h5>Site E</h5>
-<p>Now we filter the data set based on the Sites <em>Site E</em></p>
+<p>Now filter the data set based on the Sites <em>Site E</em></p>
 <pre class="r"><code>Site_E_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site E&quot;)
 View(Site_E_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_E_BreakingBud,file=&quot;Site_E_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-f" class="section level5">
 <h5>Site F</h5>
-<p>Now we filter the data set based on the Sites <em>Site F</em></p>
+<p>Now filter the data set based on the Sites <em>Site F</em></p>
 <pre class="r"><code>Site_F_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site F&quot;)
 View(Site_F_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_F_BreakingBud,file=&quot;Site_F_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-g" class="section level5">
 <h5>Site G</h5>
-<p>Now we filter the data set based on the Sites <em>Site G</em></p>
+<p>Now filter the data set based on the Sites <em>Site G</em></p>
 <pre class="r"><code>Site_G_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site G&quot;)
 View(Site_G_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_G_BreakingBud,file=&quot;Site_G_BreakingBud.csv&quot;)</code></pre>
 </div>
 <div id="site-h" class="section level5">
 <h5>Site H</h5>
-<p>Now we filter the data set based on the Sites <em>Site H</em></p>
+<p>Now filter the data set based on the Sites <em>Site H</em></p>
 <pre class="r"><code>Site_H_BreakingBud &lt;- subset(BreakingBudData,Site_Name==&quot;Site H&quot;)
 View(Site_H_BreakingBud)</code></pre>
 <pre class="r"><code>write.csv(Site_H_BreakingBud,file=&quot;Site_H_BreakingBud.csv&quot;)</code></pre>
@@ -768,6 +777,79 @@ summary(SummaryBeachPlumSiteG)
 ## 1  Site D         0.3103448
 ## 2  Site E         0.1888889
 ## 3  Site G         0.3103448</code></pre>
+</div>
+</div>
+<div id="descriptive-statistics-for-black-cherry" class="section level3">
+<h3>Descriptive Statistics for Black Cherry</h3>
+<p>Prepping procedures for Black Cherry dataset is the same as Beach Plum. However, Black Cherry has five sites rather than three sites compare to Beach Plum.</p>
+<p>Taking the average of sites throughout year 2015 - 2018 for phenophase status</p>
+<div id="black-chery-phenophase-average-in-year-2015" class="section level5">
+<h5>Black Chery Phenophase Average in Year 2015</h5>
+<pre class="r"><code>aggregate(cherrybreaking_bud_2015[12], list(cherrybreaking_bud_2015$Site_Name), mean)</code></pre>
+<pre class="r"><code>      Group.1     Phenophase_Status
+## 1  Site A        0.09740260
+## 2  Site E        0.06666667
+## 3  Site F        0.04487179
+## 4  Site G        0.08843537
+## 5  Site H        0.09395973</code></pre>
+</div>
+<div id="black-cherry-phenophase-average-in-year-2016" class="section level5">
+<h5>Black Cherry Phenophase Average in Year 2016</h5>
+<pre class="r"><code>aggregate(cherrybreaking_bud_2016[12], list(cherrybreaking_bud_2016$Site_Name), mean)</code></pre>
+<pre class="r"><code>      Group.1     Phenophase_Status
+## 1  Site A         0.1951220
+## 2  Site E         0.1916667
+## 3  Site F         0.1951220
+## 4  Site G         0.1951220
+## 5  Site H         0.1707317 </code></pre>
+</div>
+<div id="black-cherry-phenophase-average-in-year-2017" class="section level5">
+<h5>Black Cherry Phenophase Average in Year 2017</h5>
+<pre class="r"><code>aggregate(cherrybreaking_bud_2017[12], list(cherrybreaking_bud_2017$Site_Name), mean)</code></pre>
+<pre class="r"><code>      Group.1     Phenophase_Status
+## 1  Site A         0.5283019
+## 2  Site E         0.5346535
+## 3  Site F         0.5555556
+## 4  Site G         0.6039604
+## 5  Site H         0.5533981</code></pre>
+</div>
+<div id="black-cherry-phenophase-average-in-year-2018" class="section level5">
+<h5>Black Cherry Phenophase Average in Year 2018</h5>
+<pre class="r"><code>aggregate(cherrybreaking_bud_2018[12], list(cherrybreaking_bud_2018$Site_Name), mean)</code></pre>
+<pre class="r"><code>      Group.1     Phenophase_Status
+## 1  Site A         0.3068182
+## 2  Site E         0.3666667
+## 3  Site F         0.3793103
+## 4  Site G         0.3218391
+## 5  Site H         0.3678161</code></pre>
+</div>
+</div>
+<div id="contributorship-statement" class="section level3">
+<h3>Contributorship Statement</h3>
+<div id="karthik" class="section level5">
+<h5>Karthik</h5>
+<ul>
+<li>Start markdown file</li>
+<li>Write the purpose statement</li>
+<li>Provide steps taken to clean data</li>
+<li>Filter data</li>
+<li>Provide descriptive statistics for species</li>
+</ul>
+</div>
+<div id="kim" class="section level5">
+<h5>Kim</h5>
+<ul>
+<li>Prep data for phenophase status analysis</li>
+<li>Provide descriptive statistics to determine the phenophase average for both beach plum and black cherry</li>
+</ul>
+</div>
+<div id="pallvi" class="section level5">
+<h5>Pallvi</h5>
+<ul>
+<li>Analyze the accuracy result of the descriptive analysis<br />
+</li>
+<li>Edit and check the markdown file before submission</li>
+</ul>
 </div>
 </div>
 </div>
