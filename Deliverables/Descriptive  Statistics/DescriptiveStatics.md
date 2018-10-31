@@ -938,4 +938,6 @@ aggregate(cherrybreaking_bud_2018[12], list(cherrybreaking_bud_2018$Site_Name), 
 * Analyze the accuracy result of the descriptive analysis  
 * Edit and check the markdown file before submission
 
+### Pallavi proofread this document on 10/31/2018 at 12:57PM.
+
 
