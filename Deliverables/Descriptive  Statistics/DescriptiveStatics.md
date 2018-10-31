@@ -1,6 +1,6 @@
-Data Filtering on Species
+Descriptive Statistics On Species
 ================
-Karthik
+Author: Karthik, Kim, Pallavi 
 October 29, 2018
 
 -   [Purpose](#purpose)
