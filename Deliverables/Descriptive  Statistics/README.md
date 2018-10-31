@@ -1,5 +1,5 @@
 
-#Descriptive Statistics
+ #Descriptive Statistics
 
 In order to summarise our data set , we can use functions like summary,str,mean,max,range,sd in R. And compute the various statistical computations on the variables. 
 Based on the data set we have retrieved with permission from Linda Loring Nature Foundation , we can use the mean of the phenophase status to figure out which species had more phenophase activity over a range of 4years from 2015-2018. 
