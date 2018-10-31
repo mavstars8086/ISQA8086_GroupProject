@@ -22,7 +22,14 @@ October 29, 2018
         -   [On Lowbush blueberry](#on-lowbush-blueberry)
         -   [On Northern bayberry](#on-northern-bayberry)
         -   [On Southern Arrowwood](#on-southern-arrowwood)
-
+    -   [Prepping Data for Phenophase Status Analysis](#prepping-data-for-phenophase-status-analysis)
+    -   [Descriptive Statistics for Beach Plum](#descriptive-statistics-for-beach-plum)
+        -   [Beach Plum Phenophase Average in Year 2015](#beach-plum-phenophase-average-in-year-2015)
+        -   [Beach Plum Phenophase Average in Year 2016](#beach-plum-phenophase-average-in-year-2016)
+        -   [Beach Plum Phenophase Average in Year 2017](#beach-plum-phenophase-average-in-year-2017)
+        -   [Beach Plum Phenophase Average in Year 2018](#beach-plum-phenophase-average-in-year-2018)
+        
+      
 ------------------------------------------------------------------------
 
 Purpose
@@ -736,3 +743,114 @@ summary(SouthernArrowWood)
 ##  Max.   : 1.0000   Max.   :39            Less than 3     :  8   
 ##                                          More than 10,000:  0
 ```
+
+
+### Prepping Data for Phenophase Status Analysis 
+
+Author: Kim Duong 
+
+Purpose: Find the average number of the phenophase status for Beach Plum throughout Site D, E, G by breaking down the year specifically. This analysis provides results of average number of phenophase status among these three sites from year 2015 through 2018 
+
+Use the select function to select only the required important columns for the species data also which have breaking bud as the phenophase.
+
+Set Working Directory on Local Machine 
+``` r
+setwd("C:/Wiggins8086/LindaLoringNature/DataSetBlackBeach")
+```
+
+Import the Beach Plum Data Set into RStudio 
+``` r
+beachplum <- read.csv("BeachPlumDataSet.csv")
+```
+Select only phenosphase description that has breaking leaf buds 
+``` r
+breakingbud <- subset(beachplum, Phenophase_Description == "Breaking leaf buds")
+```
+
+#### Removing Unncessary Columns 
+Remove uncessary column 1 and 2 that are not relevant 
+``` r
+breakingbud <- breakingbud[ -c(1:2) ]
+```
+
+#### Reformating Date 
+
+Create a new column known as year for filtering 
+``` r
+breakingbud$Observation_Year <- format(as.POSIXct(strptime(breakingbud$Observation_Date,"%Y-%m-%d",tz="")) ,format = "%Y")
+```
+
+Change Date Format from year-month-date to month/date/year to match the date format of temp data 
+``` r
+breakingbud$Observation_Date <- format(as.POSIXct(strptime(breakingbud$Observation_Date,"%Y-%m-%d",tz="")) ,format = "%m/%d/%Y")
+
+```
+#### Creating Beach Plum Breaking Bud Subset 
+
+Create subset for year 2015, 2016, 2017, 2018 
+``` r
+breakingbud_2015 <- subset(breakingbud, Observation_Year=="2015")
+```
+``` r
+breakingbud_2016 <- subset(breakingbud, Observation_Year=="2016")
+```
+``` r
+breakingbud_2017 <- subset(breakingbud, Observation_Year=="2017")
+```
+``` r
+breakingbud_2018 <- subset(breakingbud, Observation_Year=="2018")
+```
+
+### Descriptive Statistics for Beach Plum 
+
+Taking the average of three sites throughout year 2015 - 2018 for phenophase status 
+
+##### Beach Plum Phenophase Average in Year 2015
+``` r
+aggregate(breakingbud_2015[12], list(breakingbud_2015$Site_Name), mean)
+```
+
+``` r
+      Group.1       Phenophase_Status
+##  1  Site D         0.1879195
+##  2  Site E         0.2266667
+##  3  Site G         0.1904762
+```
+
+##### Beach Plum Phenophase Average in Year 2016
+``` r
+aggregate(breakingbud_2016[12], list(breakingbud_2016$Site_Name), mean)
+```
+
+``` r
+      Group.1       Phenophase_Status
+## 1  Site D         0.1666667
+## 2  Site E         0.1833333
+## 3  Site G         0.1707317
+```
+
+##### Beach Plum Phenophase Average in Year 2017
+``` r
+aggregate(breakingbud_2017[12], list(breakingbud_2017$Site_Name), mean)
+```
+``` r
+      Group.1       Phenophase_Status
+## 1  Site D         0.3904762
+## 2  Site E         0.3529412
+## 3  Site G         0.4851485
+```
+
+##### Beach Plum Phenophase Average in Year 2018 
+``` r
+aggregate(breakingbud_2018[12], list(breakingbud_2018$Site_Name), mean)
+```
+``` r
+      Group.1       Phenophase_Status
+## 1  Site D         0.3103448
+## 2  Site E         0.1888889
+## 3  Site G         0.3103448
+```
+
+
+
+
