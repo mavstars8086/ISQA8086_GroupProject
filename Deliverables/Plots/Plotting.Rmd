@@ -1,0 +1,310 @@
+---
+title: "Plot For Species and Temperature"
+author: "Karthik"
+date: "November 5 2018"
+output:
+  
+  html_document:
+    theme: cosmo
+    toc: yes
+    code_folding: hide
+  word_document: default
+  pdf_document:
+    
+    toc: yes
+  github_document:
+    toc: yes
+---
+* * *
+
+# Purpose
+Purpose of the document is get the desired plot thats going to answer our research question, whether there is relation with the temperature and the breaking bud of our species.
+
+##Research Questions
+
+In case of the beach plum phenophase we are interested in breaking of leaf bud over the years. 
+
+1)Whether Some species are reliant on spring temperature and the timing of breaking bud depends on the minimum spring temperature or average.
+
+### Intensity Values 
+
+Breaking leaf buds  
+How many buds are breaking?  
+ 0----no phenophase  
+ 1----Less than 3  
+ 2----3 to 10  
+ 3----11 to 100  
+ 4----101 to 1000  
+ 5----1001 to 10000  
+ 6----more than 10000  
+
+### Data Source: 
+The data source is the Cleaned data uploaded in github(the cleaned data obtained on the species data and the temperature data)
+
+### Data Files: 
+
+Data of the species BeachPlum at the different sites its present.
+
+Site_D_BeachPlum.csv
+Site_E_BeachPlum.csv
+Site_G_BeachPlum.csv
+
+Temperature Data file from the different sites recorded by the temperature logger for different years.
+
+Min.Max_SiteDJune2016.csv
+Min.Max_SiteDMay2018.csv
+
+Min.Max_SiteEJune2016.csv
+Min.Max_SiteEMay2018.csv
+
+Min.Max_SiteGJune2016.csv
+Min.Max_SiteGMay2018.csv
+
+
+## Plots to Answer our Research Question:
+
+Filter the site data based on the year, so that we can make a comparison of the intensity with the temperature of 2016.
+
+
+
+	
+
+
+##Year 2016
+
+Filter the data of the species BeachPlum based on the Years and the sites where its present.
+
+ - Create a New R script
+ - Set the working directory with setwd()
+```{r initiation, echo=TRUE, message=FALSE, warning=FALSE} 
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_knit$set(root.dir = "D:/MS/Plotting/BeachPlumSiteData") 
+```
+ 
+### Site D
+ 
+Load the Site_D_BeachPlum.csv file into a dataframe variable using the following R script
+    
+```{r getBeachPlumData, echo=TRUE}
+
+SiteD_BeachPlum<-read.csv("Site_D_BeachPlum.csv",stringsAsFactors = FALSE)
+SiteD_BeachPlum$Observation_Date<-as.Date(SiteD_BeachPlum$Observation_Date,format("%m/%d/%Y"))
+View(SiteD_BeachPlum)
+str(SiteD_BeachPlum)
+```
+```{r filteryear2016, echo=TRUE }
+SiteD_BeachPlum_2016<-subset(SiteD_BeachPlum, format(as.Date(SiteD_BeachPlum$Observation_Date),"%Y")==2016)
+write.csv(SiteD_BeachPlum_2016,file = "SiteD_BeachPlum_2016.csv")
+```
+
+
+```{r ReadYearData,echo=TRUE}
+SiteD_Beach_2016<-read.csv("SiteD_BeachPlum_2016.csv",stringsAsFactors = FALSE,header = TRUE)
+```
+
+
+
+Invoke the required libraries 
+    
+```{r getlibrary, warning=FALSE}
+library(dplyr)
+library(ggplot2)
+library(ggplot2)
+library(gridExtra)
+```
+
+#### Plotting the Phenophase status
+Now lets plot the phenophase status of BeachPlum at site D over the year 2016.
+
+
+```{r PlotForPhenophaseStatus,echo=TRUE}
+ggplot(SiteD_Beach_2016, aes(SiteD_Beach_2016$Day_of_Year, SiteD_Beach_2016$Phenophase_Status
+)) +ggtitle("Beach Plum Phenophase Status throughout year 2016 Site D")+ geom_line() + xlab("2016 Year") + ylab("PhenophaseStatus")
+```
+
+#### Plotting the Phenophase Intensity
+```{r PlotForPhenophaseIntensity,echo=TRUE}
+ggplot(SiteD_Beach_2016, aes(SiteD_Beach_2016$Day_of_Year, SiteD_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site D")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+
+fig1<-ggplot(SiteD_Beach_2016, aes(SiteD_Beach_2016$Day_of_Year, SiteD_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site D")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+```
+
+#### Plotting the Temperature at Site D for Year 2016
+
+
+
+```{r readTemperatureData Year-2016,echo=TRUE}
+
+SiteDTemp2016<-read.csv("Min.Max_SiteDJune2016.csv")
+
+SiteDTemp2016$Date<-as.Date(SiteDTemp2016$Date,format("%m/%d/%Y"))
+```
+
+
+
+```{r PlotForTemperatureSiteD Year-2016,echo=TRUE}
+
+ggplot(SiteDTemp2016, aes(SiteDTemp2016$Day, SiteDTemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site D BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+fig2<-ggplot(SiteDTemp2016, aes(SiteDTemp2016$Day, SiteDTemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site D BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+```
+####Comparison
+
+```{r Comparison Year-2016,echo=TRUE}
+grid.arrange(fig1,fig2,nrow=2)
+```
+
+
+
+
+### Site E
+ 
+Load the Site_E_BeachPlum.csv into a dataframe variable using the following R script
+    
+```{r getBeachPlumDataSiteE, echo=TRUE}
+
+Site_E_BeachPlum<-read.csv("Site_E_BeachPlum.csv",stringsAsFactors = FALSE)
+Site_E_BeachPlum$Observation_Date<-as.Date(Site_E_BeachPlum$Observation_Date,format("%m/%d/%Y"))
+View(Site_E_BeachPlum)
+str(Site_E_BeachPlum)
+```
+```{r filteryear2016SiteE, echo=TRUE }
+Site_E_BeachPlum_2016<-subset(Site_E_BeachPlum,format(as.Date(Site_E_BeachPlum$Observation_Date),"%Y")==2016)
+write.csv(Site_E_BeachPlum_2016,file = "Site_E_BeachPlum_2016.csv")
+```
+
+
+```{r ReadYearDataSiteE,echo=TRUE}
+SiteE_Beach_2016<-read.csv("Site_E_BeachPlum_2016.csv",stringsAsFactors = FALSE,header = TRUE)
+```
+
+
+
+#### Plotting the Phenophase status
+Now lets plot the phenophase status of BeachPlum at site D over the year 2016.
+
+
+```{r PlotForPhenophaseStatus SiteE,echo=TRUE}
+ggplot(SiteE_Beach_2016, aes(SiteE_Beach_2016$Day_of_Year, SiteE_Beach_2016$Phenophase_Status
+)) +ggtitle("Beach Plum Phenophase Status throughout year 2016 Site E")+ geom_line() + xlab("2016 Year") + ylab("PhenophaseStatus")
+```
+
+#### Plotting the Phenophase Intensity
+```{r PlotForPhenophaseIntensity SiteE,echo=TRUE}
+ggplot(SiteE_Beach_2016, aes(SiteE_Beach_2016$Day_of_Year, SiteE_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site E")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+
+fig3<-ggplot(SiteE_Beach_2016, aes(SiteE_Beach_2016$Day_of_Year, SiteE_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site E")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+```
+
+#### Plotting the Temperature at Site E for Year 2016
+
+
+
+```{r readTemperatureDataSiteE Year-2016,echo=TRUE}
+
+SiteETemp2016<-read.csv("Min.Max_SiteEJune2016.csv")
+
+SiteETemp2016$Date<-as.Date(SiteETemp2016$Date,format("%m/%d/%Y"))
+```
+
+
+
+```{r PlotForTemperatureSiteE Year-2016,echo=TRUE}
+
+ggplot(SiteETemp2016, aes(SiteETemp2016$Day, SiteETemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site E BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+fig4<-ggplot(SiteETemp2016, aes(SiteETemp2016$Day, SiteETemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site E BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+```
+####Comparison
+
+```{r ComparisonSiteE Year-2016,echo=TRUE}
+grid.arrange(fig3,fig4,nrow=2)
+```
+
+
+
+
+
+
+### Site G
+ 
+Load the Site_G_BeachPlum.csv into a dataframe variable using the following R script
+    
+```{r getBeachPlumDataSiteG, echo=TRUE}
+
+Site_G_BeachPlum<-read.csv("Site_G_BeachPlum.csv",stringsAsFactors = FALSE)
+Site_G_BeachPlum$Observation_Date<-as.Date(Site_G_BeachPlum$Observation_Date,format("%m/%d/%Y"))
+View(Site_G_BeachPlum)
+str(Site_G_BeachPlum)
+```
+```{r filteryear2016SiteG, echo=TRUE }
+Site_G_BeachPlum_2016<-subset(Site_G_BeachPlum,format(as.Date(Site_G_BeachPlum$Observation_Date),"%Y")==2016)
+write.csv(Site_G_BeachPlum_2016,file = "Site_G_BeachPlum_2016.csv")
+```
+
+
+```{r ReadYearDataSiteG,echo=TRUE}
+SiteG_Beach_2016<-read.csv("Site_G_BeachPlum_2016.csv",stringsAsFactors = FALSE,header = TRUE)
+```
+
+
+
+#### Plotting the Phenophase status
+Now lets plot the phenophase status of BeachPlum at site G over the year 2016.
+
+
+```{r PlotForPhenophaseStatus SiteG,echo=TRUE}
+ggplot(SiteG_Beach_2016, aes(SiteG_Beach_2016$Day_of_Year, SiteG_Beach_2016$Phenophase_Status
+)) +ggtitle("Beach Plum Phenophase Status throughout year 2016 Site G")+ geom_line() + xlab("2016 Year") + ylab("PhenophaseStatus")
+```
+
+#### Plotting the Phenophase Intensity
+```{r PlotForPhenophaseIntensity SiteG,echo=TRUE}
+ggplot(SiteG_Beach_2016, aes(SiteG_Beach_2016$Day_of_Year, SiteG_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site G")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+
+fig5<-ggplot(SiteE_Beach_2016, aes(SiteE_Beach_2016$Day_of_Year, SiteE_Beach_2016$Intensity_Value
+)) +ggtitle("Beach Plum Intensity value throughout year 2016 Site E")+ geom_line() + xlab("Year 2016") + ylab("Intensity Value")
+```
+
+#### Plotting the Temperature at Site G for Year 2016
+
+
+
+```{r readTemperatureDataSiteG Year-2016,echo=TRUE}
+
+SiteGTemp2016<-read.csv("Min.Max_SiteGJune2016.csv")
+
+SiteGTemp2016$Date<-as.Date(SiteGTemp2016$Date,format("%m/%d/%Y"))
+```
+
+
+
+```{r PlotForTemperatureSiteG Year-2016,echo=TRUE}
+
+ggplot(SiteGTemp2016, aes(SiteGTemp2016$Day, SiteGTemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site G BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+fig6<-ggplot(SiteGTemp2016, aes(SiteGTemp2016$Day, SiteGTemp2016$Min.Temp
+))+ggtitle("Temperature Plot Site G BeachPlum") + geom_line() + xlab("2016 Year") + ylab("MinTemp")
+
+```
+####Comparison
+
+```{r ComparisonSiteG Year-2016,echo=TRUE}
+grid.arrange(fig5,fig6,nrow=2)
+```
+
+Contributoship Statement:
+
+Karthik-Worked on the code to plot the beach plum species phenophase data over the year and plot for temperature over the year.Structured the Rmarkdown and plotted the plots for beachplum site D,E,G over 2016 and temperature of Site D,E,G over 2016.
