@@ -108,6 +108,25 @@ write.csv(SiteD_BeachPlum_2016,file = "SiteD_BeachPlum_2016.csv")
 SiteD_Beach_2016<-read.csv("SiteD_BeachPlum_2016.csv",stringsAsFactors = FALSE,header = TRUE)
 ```
 
+Changing Intensity Value to Number 
+
+``` r
+SiteD_BeachPlum_2016$Intensity_Value[grep("Less than 3",SiteD_BeachPlum_2016$Intensity_Value)]<-"1"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("3 to 10",SiteD_BeachPlum_2016$Intensity_Value)]<-"2"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("11 to 100",SiteD_BeachPlum_2016$Intensity_Value)]<-"3"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("101 to 1,000",SiteD_BeachPlum_2016$Intensity_Value)]<-"4"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("1,001 to 10,000",SiteD_BeachPlum_2016$Intensity_Value)]<-"5"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("More than 10,000",SiteD_BeachPlum_2016$Intensity_Value)]<-"6"
+
+SiteD_BeachPlum_2016$Intensity_Value[grep("-9999",SiteD_BeachPlum_2016$Intensity_Value)]<-"0"
+
+```
+
 Invoke the required libraries
 
 ``` r
