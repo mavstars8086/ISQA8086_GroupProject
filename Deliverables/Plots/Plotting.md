@@ -381,7 +381,6 @@ grid.arrange(fig5,fig6,nrow=2)
 ![](Plotting_files/figure-markdown_github/ComparisonSiteG%20Year-2016-1.png)
 
 Contributoship Statement:
-Contributorship Statement:
 
 Karthik-Worked on the code to plot the beach plum species phenophase data over the year and plot for temperature over the year.Structured the Rmarkdown and plotted the plots for beachplum site D,E,G over 2016 and temperature of Site D,E,G over 2016.
 
