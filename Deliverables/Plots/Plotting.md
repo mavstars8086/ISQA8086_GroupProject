@@ -1,6 +1,6 @@
 Plot For Species and Temperature
 ================
-Karthik
+Karthik, Kim, Pallavi
 November 5 2018
 
 -   [Purpose](#purpose)
@@ -381,5 +381,10 @@ grid.arrange(fig5,fig6,nrow=2)
 ![](Plotting_files/figure-markdown_github/ComparisonSiteG%20Year-2016-1.png)
 
 Contributoship Statement:
+Contributorship Statement:
 
 Karthik-Worked on the code to plot the beach plum species phenophase data over the year and plot for temperature over the year.Structured the Rmarkdown and plotted the plots for beachplum site D,E,G over 2016 and temperature of Site D,E,G over 2016.
+
+Kim- worked on 2015's Beach Plum plots for site D, E and G which includes intesity values, phenophase status, minimum temperature and days of the year + contributed to .md file such as adding the intensity values and changing code.
+
+Pallavi- worked on 2017's Beach Plum plots for site D, E and G which includes intesity values, phenophase status, minimum temperature and days of the year + contributed to .md file and proofread markdown file with final github commit for Plot assignment. 
