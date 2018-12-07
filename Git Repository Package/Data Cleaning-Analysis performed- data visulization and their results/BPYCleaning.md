@@ -668,6 +668,7 @@ ggplot(data=SiteGTemp2018, aes(SiteGTemp2018$Min.Temp)) +
 
 Visualization
 =============
+The xaxis is the year in days and the Y axis in the temperature plots are in celsius.
 
 Phenophase Intensity Vs Minimum Temperature of BeachPlum -2016
 --------------------------------------------------------------
