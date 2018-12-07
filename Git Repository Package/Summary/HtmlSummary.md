@@ -128,6 +128,8 @@ Below we have the different plots obtained from the data set. We have two differ
 
 The two plots are plotted over different sites each at different years.
 
+**The xaxis is Year in days.The Y axis in Temperature is in celsius**
+
 ``` r
 knitr::opts_chunk$set(cache=TRUE)
 knitr::opts_knit$set(root.dir = "D:/MS/D2D Final/Data Source/BeachPlum/HtmlSummary") 
