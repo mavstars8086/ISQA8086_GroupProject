@@ -104,8 +104,22 @@ Within the dataset, there are phenophase activitiess occurring among the plant s
 Source Data
 ===========
 
+We got our primary source data from Sarah Bois, who is the director of Linda Loring Nature Foundation as well as the leader of research project between Linda Loring Nature Foundation and Class ISQA 8086 from the University of Nebraska Omaha.  The data she provided us for our research project had multiple data files showing phenology observations recorded by the data loggers throughout the year. Furthermore, we got additional source data from National Phenology Network (NPN). Linda Loring Nature Foundation put out their phenology data in the NPN so that it can help anyone who are willing to do a collaborative research study with Linda Loring Nature Foundation or for those who have kind of same species and would like to use their phenology data for a comparative analysis.
+Link: https://www.usanpn.org/data
 Data Processing
 ===============
+Data processing is an important part of our research project such as gathering the data from trustable source for data comparison analysis. There were many steps that we went through to get the results which we can use to answer our research questions. Data processing helped us to derive meaningful insights from our data sets. Starting from data cleaning that we did in Microsoft Excel as well as in R studio. After getting our data cleaned, we were able to track patterns by years, months, species, etc. To have detailed and precise information about our datasets, we performed descriptive statics— In order to summarize our data set , we used functions histogram in R. And computed the distribution of the breaking bud intensity and temperature for a particular year specific to a site. Based on the data set we have retrieved with permission from Linda Loring Nature Foundation , we used the mean of the phenophase Intensity to figure out which sites had more phenophase activity over a range of 4years from 2015-2018 for the Plant BeachPlum. Since most of the variables in our data set are categorical variables , we were limited to the variable phenophase status,in order to get some interpretation we had to assign a cardinal scale to the Breaking bud intensity in the data. We used the following cardianl scale for the breaking bud intensity recorded in the national phenology network.
+
+ 0---- -9999  
+ 1----Less than 3  
+ 2----3 to 10  
+ 3----11 to 100  
+ 4----101 to 1000  
+ 5----1001 to 10000  
+ 6----more than 10000  
+
+Going forward, we had our temperature data set cleaned and merged with the species data which we used to perform some more similar statistical computations. Furthermore, for easy understanding and valuable decisions, we used our descriptive statistics analysis results for data visualization— charts and graphs. We have used R to plot our graphs. We have plotted intensity values, phenophase status and minimum temperature for beach plum species phenophase data and for temperature data over the year. We have considered three sites—D, E and G for the year 2015, 2016 and 2017.
+
 
 Data Visuals
 ============
