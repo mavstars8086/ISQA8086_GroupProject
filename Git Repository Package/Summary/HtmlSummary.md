@@ -36,35 +36,70 @@ December 5 2018
 Introduction
 ============
 
+Linda Loring Nature Foundation (LLNF) is a nonprofit which ‘promote environmental literacy through research, education, and stewardship empowering our community to develop a sense of place by deepening their connection to the natural world.’ For the research project, a group of students of University of Nebraska Omaha, known as MavStars decided to embark on the data analysis project with two data sets. The first data set is download from Phenology Observation Portal which allows the customization datasets of the observational phonology data collected pertaining to LLNF’s species. The second data set is given by LLNF directly which contains the air and soil temperature to aid with data analysis. The data analysis project is a collaborative data analysis between LLNF and University of Nebraska Omaha. 
+
+
 BackGround Information
 ======================
 
 LLNF Overview & Mission
 -----------------------
 
+The mission of LLNF is to ‘improve the understanding and appreciation of Nantucket’s fragile flora, fauna, and wildlife by providing education, information, and support to children, educators, researchers, organizations and individuals. LLNF provides stewardship of the land property for learning, environmental promotion, community engagement, and nature knowledge. LLNF locates on the Nantucket Island near south of Cape Cod, Massachusetts with estimated size of roughly about 30 miles long.  There are three main programs operating under the organization include research, education and stewardship. The land property belongs to LLNF provides a ‘living laboratory’ to serve as a research ground, education advancing support, and environmental understanding. With a focus in education, the foundation staffs can help connect people from all ages and diverse background to nature of the property. Throughout the years, there are three main areas which LLNF focuses which are ecological research, environmental education, and land stewardship. 
+
 LLNF History
 ------------
+LLNF was found by Linda Loring, a ‘woman with a vision’. She describes herself as a conservationist and wildlife advocate with a strong passion in giving young individuals the opportunity to study and benefit from the natural world (‘History’). In 1957, she started to purchase land piece by piece at a time between Eel Point Road and Madaket Road without a thought of sell nor develop her property. Linda Loring Nature Foundation was established in 1999 as a 501(c)3 nonprofit organization starting out with five acres and became operative in 2007 after Kitty Pochman was hired as the Executive Director. Linda treasures the plants and animals on Nantucket island that she is conserving the land to protect the wildlife home for many plants and animals. Her objective was to protect her land and create a foundation to achieve her dream of building a nature center on Nantucket (‘History’). She started the foundation’s property with five acres donated from her property. Currently, Linda is residing on Nantucket and continuously contribute an important role within the Foundation. 
+
 
 LLNF Focus
 ----------
 
+The LLNF focuses mainly on research, education, and stewardship (‘Home’). For research, they have current projects, research projects, citizen science, collaborations, outreach, and invasive species (‘Research’). Recently, on Instagram LLNF posted a photo of a snake to inform about a collaborative research with Nantucket Conservation Foundation and Maria Mitchell Association known as Nantucket Snake Consortium. The project goal is to assess the health of snake populations throughout the island. LLNF encourages anyone with interested in learning about the health of snakes online to stop by the Snake Slithers program to learn more about the research project. 
+
+Citizen science is defined ‘research collaborations between scientists and volunteers’ that increase opportunities to permit access to ‘scientific information among community members’ and ‘scientific data collection’ (Cornell Lab of Ornithology). The purpose of citizen provides collaborative experience between scientists and volunteers responding to real-world questions. LLNF has been providing the property to collect precipitation data to understand the patterns on the island and where the findings compared with regional and national results. LLNF claims as the precipitation center and has been taken daily precipitation measurements in collaboration with Community Collaborative Rain, Hail & Snow Network (CoCoRaHS) since 2014. The precipitated data is available for public usage online. CoCoRaHS found out from the collected data that the Nantucket island was not having any severe drought with more rain precipitation in July and August (‘Measuring Rainfall on Nantucket’). 
+
+LLNF partners up with variety of organizations with similar values in conservation and research. These organizations work with LLNF to provide expertise in in research area aiding current or research projects ongoing. A few organizations for mentioned include Nantucket Biodiversity Initiative, Invasive Plant Species Committee, and Nantucket Prescribed Fire Program (‘Partner Organizations’). The full list can be found on LLNF Partners online page. LLNF provides exploratory grounds for visitors through hiking tour toward nature with an interest in research opportunities with LLNF. LLNF provides learning and researching ground for any interested individual or group. 
+
 Year/Summer Programs
 --------------------
+
+The Foundation has summer programs created for families, kids and adults include nature walks, bird walks, and snake slithers (‘Summer Programs’). Every program is led by a staff member which runs from late May until beginning October when the weather starts to cool down rapidly. There are hiking trail event with the naturalist, Peter Brace where visitors can discuss about the geologic and natural history. Moreover, they can explore plant and animal life along the tour hike. LLNF provides variety of events such as science picnic which visitors can bring food for picnic and the Foundation provides the science talk. The Foundation makes the property as a sanctuary for not only plants and animals but a place to meditate with free cost to members and ten dollars admission for nonmember. There are children programs with listed events for children in category of ages six to nine or ten to thirteen with dates availability. 
+
 
 Membership & Social Media
 -------------------------
 
+In addition, LLNF provides visitors to become member of the foundation by providing a form directly on homepage which supports outdoor recreational opportunities, environmental education program, and protection of open spaces (‘Becoming a Member’). LLNF utilizes Facebook to stay in touch with members or visitors and present themselves openly toward the public. They often uploaded pictures from events, make announcements, update warnings about variety of animals for safety. The active level of Facebook is more active than Instagram for LLNF. LLNF does not market themselves on public media and keep themselves as an educated nonprofit organization. They want to encourage individuals to come to different events or programs to get hands-on experience and start on a research project with a known interest aligning with what LLNF can provide. 
+
+
 Advocacy and Policy
 -------------------
+
+For advocacy and policy research from an article, known as ‘A guide to measure Advocacy and Policy’, non-profit organizations and foundations measure their advocacy and policy work as there is no common evaluation approach exists in present. Since LLNF is a nonprofit organization, we suggest the measurement of their advocacy and policy work will help them to learn about beneficial outcomes of advocacy and policies. 
 
 Target Audience
 ===============
 
+Target audience is defined as ‘a group of potential customers or users’ with interest in the results that be product or service provided from the data analysis project (Woods, 2017). The target audience for this project would be researchers, nonprofit organizations specializing in providing environmental research and educational sessions regarding the plant species and residents living on Nantucket Island. For example, Sarah Bois, Director of Research and Education of LLNF would be the researcher as the target audience along with LLNF as the nonprofit organization. Dr. Bois would create educational and research programs to engage LLNF visitors and residents of Nantucket Island. Moreover, Dr. Bois can collaborate with other nonprofit organizations for collaborative research projects. 
+From the data analysis results, both nonprofit organizations and Nantucket Island residents can understand the vital signs of climate change which impact on the plant species on Nantucket Island. LLNF can educate visitors about the plant species’ phenological behaviors on Nantucket Island with the possibility of forming collaborative research opportunities. The results of the data analysis would attract ongoing research and activities for environmental researchers around the world with an interest in Nantucket Island. With the analysis results, residents living on Nantucket Island can learn about the plants and contribute efforts to preserve the island’s nature.
+
 Target Analysis
 ===============
+From the data analysis, the target analysis would provide the patterns from visual plots created from the data analysis after data cleaning to present to Linda Loring Nature Foundation (LLNF). With the given two datasets, the goal is to concise down the focus on a plant species to understand its behaviors throughout the different sites from year 2015 through 2018. The pattern drawn from the dataset will give LLNF a new perspective of how the temperature contribute to the phenology behaviors of certain plant species from the phenology dataset. Moreover, there are eight sites, which we can understand how the plant species behave especially how each site has different topography which may have an impact on the plant’s behavior. LLNF’s focus, as to gaining public confidence, more fund would go toward organization. With LLNF’s status as a nonprofit organization, they can attract many audiences to their interest fields which keeps LLNF growing and keeping their audience engaged.
+
+Our main focus in our project is the data related to the plant species Beach Plum to observe its phenophase activity across different sites and the impact of temperature on its phenophase activity.
 
 Phenology
 =========
+Understanding the nature of phenological data touches upon the purpose of why phenological studies are essential to our target audience. According to the National Phenology Network, phenology is known as ‘nature’s calendar’ such as changes in behavior throughout time. The behavior changes provide information to how nature responds which support certain behavioral predictions, which impact the phenology to become the “leading indicator” by climate change (‘Why Phenology?’). LLNF can apply the data results of phenology from research project to manage plants on the island especially for environmental preservation. Environmental preservation provides the urge of residents living on island to help protect the island in the long term. 
+Applications of Phenology 
+•	Manage invasive forest pests and species 
+•	Predict ‘human health-related event’ 
+•	Optimize when to harvest, fertilize, and plant crops 
+•	Understand ‘the timing of ecosystem processes’ 
+•	Assess species vulnerability, populations and ecological communities 
+Within the dataset, there are phenophase activitiess occurring among the plant species from Nantucket Island. 
 
 Source Data
 ===========
