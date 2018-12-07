@@ -395,9 +395,9 @@ References
 
 -   Elise Buisson1,2, Swanni T. Alvarado3,4, Soizig Le Stradic4,5, Leonor Patricia C.Morellato5 <http://www.orsimpact.com/DirectoryAttachments/1132017_44733> \_727\_HFRP-Evaluation-Exchange-Guide-to-Measuring-Advocacy-Policy.pdf
 
--   <https://e27.co/defining-target-audience-involves-data-analysis-deeper-understanding-intended-market-20170816/> --- (Woods, 2017)
+-   Woods, J. (2017, August 16). Defining your target audience involves data, analysis, and a deeper understanding of your intended market. Retrieved December 7, 2018, from <https://e27.co/defining-target-audience-involves-data-analysis-deeper-understanding-intended-market-20170816/>
 
--   Link: <https://www.usanpn.org/about/why-phenology>
+-  Why Phenology? (n.d.). Retrieved December 7, 2018, from <https://www.usanpn.org/about/why-phenology>
 
 -   Garcia LC, Hobbs RJ, Mäes dos Santos FA, Rodrigues RR (2014) Flower and fruit availability along a forest restoration gradient. Biotropica 46: 114-123
 
@@ -406,3 +406,22 @@ References
 -   <https://www.usanpn.org/natures_notebook>
 
 -   <https://llnf.org/>
+
+- Bois, S. (2016, December 12). Linda Loring Nature Foundation Given Nearly 20 Acres by The Nature Conservancy. Retrieved September 26, 2018, from <https://www.nantucketchronicle.com/musings-on-science-and-nature/2016/linda-loring-nature-foundation-given-nearly-20-acres-by-the>
+
+- Become a Member. (n.d.). Retrieved September 26, 2018, from <https://llnf.org/members/>
+
+- Cornell Lab of Ornithology. (n.d.). Retrieved September 26, 2018, from <http://www.birds.cornell.edu/citscitoolkit/about/definition>
+
+- History. (n.d.). Retrieved September 26, 2018, from <https://llnf.org/history/>
+LINDA LORING NATURE FOUNDATION. (n.d.). Retrieved September 26, 2018, from <https://cfnan.org/linda-loring-nature-foundation/>
+Measuring Rainfall on Nantucket. (2017, September 14). Retrieved from <http://yesterdaysisland.com/measuring-rainfall-nantucket/>
+
+- Nantucket Pond Geology. (n.d.). Retrieved September 26, 2018, from <https://www.nantucketpondcoalition.com/educational-resources/introduction/>
+
+- Partner Organizations. (n.d.). Retrieved September 26, 2018, from <https://llnf.org/partners>
+
+- Research. (n.d.). Retrieved September 26, 2018, from <https://llnf.org/research>
+
+- Summer Programs. (n.d.). Retrieved September 26, 2018, from <https://llnf.org/summerprograms/>
+
