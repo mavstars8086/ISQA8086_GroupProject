@@ -10,8 +10,12 @@
 * Contributed towards the Data Visuals and Data Interpretation parts in the final summary and presentation slides.
 
 ## Kim 
-* Contribute to Audience Profile Markdown 
-* Contribute to Summary for Final Git Repository  
+* Contributed to Audience Profile Markdown 
+* Contributed to Summary for Final Git Repository  
+* Contributed to R Scripts for data cleaning 
+* Contributed to R Scripts for data analysis 
+* Contributed to plotting for plum species phenophase data for Site D, E & G for the year 2015
+* Contributed to adding content to presentation slides 
 
 
 ## Pallavi 
